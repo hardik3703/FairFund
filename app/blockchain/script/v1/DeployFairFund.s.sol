@@ -2,8 +2,8 @@
 pragma solidity ^0.8.20;
 
 import {Script} from "forge-std/Script.sol";
-import {FairFund} from "../src/FairFund.sol";
-import {HelperConfig} from "./HelperConfig.s.sol";
+import {FairFund} from "../../src/v1/FairFund.sol";
+import {HelperConfig} from "../HelperConfig.s.sol";
 
 contract DeployFairFund is Script {
     function run() external returns (FairFund fairFund, HelperConfig helperConfig) {

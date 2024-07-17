@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.20;
 
-import {HelperConfig} from "../../script/HelperConfig.s.sol";
-import {DeployFairFund} from "../../script/DeployFairFund.s.sol";
-import {FairFund} from "../../src/FairFund.sol";
-import {FundingVault} from "../../src/FundingVault.sol";
-import {VotingPowerToken} from "../../src/VotingPowerToken.sol";
+import {HelperConfig} from "../../../script/HelperConfig.s.sol";
+import {DeployFairFund} from "../../../script/v1/DeployFairFund.s.sol";
+import {FairFund} from "../../../src/v1/FairFund.sol";
+import {FundingVault} from "../../../src/v1/FundingVault.sol";
+import {VotingPowerToken} from "../../../src/v1/VotingPowerToken.sol";
 import {Test} from "forge-std/Test.sol";
 
 contract FairFundTest is Test {

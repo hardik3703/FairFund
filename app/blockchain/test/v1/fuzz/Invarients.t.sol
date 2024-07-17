@@ -3,11 +3,11 @@ pragma solidity ^0.8.20;
 
 import {Test} from "forge-std/Test.sol";
 import {StdInvariant} from "forge-std/StdInvariant.sol";
-import {FundingVault} from "../../src/FundingVault.sol";
-import {VotingPowerToken} from "../../src/VotingPowerToken.sol";
+import {FundingVault} from "../../../src/v1/FundingVault.sol";
+import {VotingPowerToken} from "../../../src/v1/VotingPowerToken.sol";
 import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-import {MockERC20} from "../../src/mocks/MockERC20.sol";
+import {MockERC20} from "../../../src/v1/mocks/MockERC20.sol";
 import {Handler} from "./Handler.t.sol";
 
 contract InvarientsTest is StdInvariant, Test {
