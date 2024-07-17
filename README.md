@@ -1,4 +1,4 @@
-# FairFund
+# FairFund v2
 
 FairFund is a blockchain based platform for community-driven funding. Users can deploy funding vaults, deposit funds, and submit proposals for funding. The platform uses a voting mechanism to decide which proposals receive funding.
 
